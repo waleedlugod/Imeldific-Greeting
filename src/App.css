@@ -5,6 +5,9 @@
 }
 button {
 	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 img {
 	width: 700px;
@@ -12,6 +15,9 @@ img {
 }
 p {
 	margin: 10px 0px;
+}
+svg {
+	height: 20px;
 }
 
 .container {
