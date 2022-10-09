@@ -3,14 +3,14 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
-
+button {
+	cursor: pointer;
+}
 img {
 	width: 700px;
 	margin: 10px 10%;
 }
-
 p {
-	white-space: pre-line;
 	margin: 10px 0px;
 }
 

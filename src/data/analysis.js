@@ -2,17 +2,17 @@ export const analysis = [
 	{
 		id: 0,
 		q: "What is the message?",
-		a: [],
+		a: [""],
 	},
 	{
 		id: 1,
 		q: "What is the purpose of the message?",
-		a: [],
+		a: [""],
 	},
 	{
 		id: 2,
 		q: "How is the message conveyed by the text and/or image? Does the message have to be conveyed in this manner?",
-		a: [],
+		a: [""],
 	},
 	{
 		id: 3,
@@ -34,6 +34,6 @@ export const analysis = [
 	{
 		id: 5,
 		q: "How might alternative perspectives be represented?",
-		a: [],
+		a: [""],
 	},
 ];

@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Card({ q, a }) {
+	const [show, setShow] = useState(false);
+
+	function toggleAnswer() {
+		setShow(!show);
+	}
+
 	return (
 		<>
-			<h4>{q}</h4>
-			{a.map((text) => {
-				return <p>{text}</p>;
-			})}
+			<button onClick={toggleAnswer}>
+				<h2>{q}</h2>
+			</button>
+			{show &&
+				a.map((text) => {
+					return <p>{text || "no answer yet"}</p>;
+				})}
 		</>
 	);
 }
