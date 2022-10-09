@@ -4,7 +4,9 @@ function Card({ q, a }) {
 	return (
 		<>
 			<h4>{q}</h4>
-			<p>{a}</p>
+			{a.map((text) => {
+				return <p>{text}</p>;
+			})}
 		</>
 	);
 }
