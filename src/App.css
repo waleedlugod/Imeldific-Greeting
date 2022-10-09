@@ -4,13 +4,21 @@
 	box-sizing: border-box;
 }
 
+img {
+	width: 700px;
+	margin: 10px 10%;
+}
+
+p {
+	white-space: pre-line;
+}
+
 .container {
 	min-height: 100vh;
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-
+	align-items: center;
 	text-align: center;
 }
 
