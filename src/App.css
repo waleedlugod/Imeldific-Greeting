@@ -9,6 +9,7 @@ button {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	text-align: left;
 
 	padding: 10px;
 }
@@ -37,8 +38,7 @@ svg {
 .main {
 	display: flex;
 	flex-direction: column;
-	width: 800px;
-	text-align: start;
+	margin-inline: 15%;
 }
 .footer {
 	margin-top: auto;
