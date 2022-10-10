@@ -6,8 +6,8 @@ import { analysis } from "../data/analysis";
 function Main() {
 	return (
 		<>
-			{analysis.map((data) => {
-				return <Card key={data.id} {...data} />;
+			{analysis.map((analysis) => {
+				return <Card key={analysis.id} {...analysis} />;
 			})}
 		</>
 	);

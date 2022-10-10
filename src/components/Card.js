@@ -9,16 +9,18 @@ function Card({ q, a }) {
 		setShow(!show);
 	}
 
+	let button;
+	if (show) {
+		button = a;
+	}
+
 	return (
 		<>
 			<button onClick={toggleAnswer}>
 				<h2>{q}</h2>
 				{show ? <UpArrow /> : <DownArrow />}
 			</button>
-			{show &&
-				a.map((text) => {
-					return <p>{text || "no answer yet"}</p>;
-				})}
+			{button}
 		</>
 	);
 }
