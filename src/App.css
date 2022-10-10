@@ -21,13 +21,6 @@ button {
 	margin: 10px 0px;
 	padding: 15px;
 }
-img {
-	width: 70%;
-	margin: 10px 10%;
-
-	border: 2px solid #b68973;
-	border-radius: 25px;
-}
 p {
 	margin: 10px 0px;
 }
@@ -50,7 +43,12 @@ svg {
 	margin: 50px;
 }
 .header img {
+	width: 70%;
+	margin-inline: 10%;
 	margin-bottom: 70px;
+
+	border: 2px solid #b68973;
+	border-radius: 25px;
 }
 .main {
 	display: flex;
