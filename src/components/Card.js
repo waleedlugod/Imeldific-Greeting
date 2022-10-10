@@ -9,9 +9,9 @@ function Card({ q, a }) {
 		setShow(!show);
 	}
 
-	let button;
+	let answer;
 	if (show) {
-		button = a;
+		answer = a;
 	}
 
 	return (
@@ -20,7 +20,7 @@ function Card({ q, a }) {
 				<h2>{q}</h2>
 				{show ? <UpArrow /> : <DownArrow />}
 			</button>
-			{button}
+			{answer}
 		</>
 	);
 }
