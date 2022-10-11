@@ -1,14 +1,12 @@
 import React from "react";
-import photo from "../images/photo.jpg";
 
 function Header() {
 	return (
 		<div className="header">
-			<h1>
-				Imeldific Greeting: An Analysis on Imelda Marcos’ Electronic Billboard
-				Birthday Greeting
-			</h1>
-			<img src={photo} alt="" />
+			<h1>Imeldific Greeting</h1>
+			<h2>
+				An Analysis on Imelda Marcos’ Electronic Billboard Birthday Greeting
+			</h2>
 		</div>
 	);
 }
