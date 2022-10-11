@@ -72,6 +72,7 @@ svg {
 .image-container {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 .image-container img {
@@ -93,9 +94,10 @@ svg {
 .footer {
 	margin-top: auto;
 	padding: 30px;
-	padding-inline: 0px;
 
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
 	justify-content: space-evenly;
 }
