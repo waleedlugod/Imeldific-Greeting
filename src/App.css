@@ -54,8 +54,11 @@ svg {
 	align-items: center;
 }
 .header {
+	background-color: var(--tertiary-1);
+	width: 100vw;
+	padding: 55px;
+	margin-bottom: 70px;
 	text-align: center;
-	margin: 50px;
 }
 .header h1 {
 	font-weight: bold;
