@@ -51,7 +51,6 @@ svg {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-content: center;
 }
 .header {
 	background-color: var(--tertiary-1);
@@ -86,6 +85,7 @@ svg {
 	width: 70%;
 	margin-inline: 10%;
 	margin-bottom: 50px;
+	align-self: center;
 }
 .footer {
 	margin-top: auto;
