@@ -1,3 +1,12 @@
+@font-face {
+	font-family: montserrat-regular;
+	src: url(./fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: montserrat-bold;
+	src: url(./fonts/montserrat/Montserrat-Bold.ttf);
+}
+
 :root {
 	--primary: #f8ede3;
 	--secondary: #dfd3c3;
@@ -9,7 +18,7 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	font-family: "Montserrat", serif;
+	font-family: montserrat-regular, serif;
 }
 body {
 	background-color: var(--primary);
@@ -28,6 +37,9 @@ button {
 
 	margin-top: 20px;
 	padding: 15px;
+}
+button h2 {
+	font-family: montserrat-bold, serif;
 }
 p {
 	margin: 10px 0px;
@@ -64,14 +76,12 @@ svg {
 	text-align: center;
 }
 .header h1 {
-	font-weight: bold;
-}
-.header h2 {
-	font-weight: normal;
+	font-family: montserrat-bold;
 }
 .image-container {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 .image-container img {
@@ -93,9 +103,10 @@ svg {
 .footer {
 	margin-top: auto;
 	padding: 30px;
-	padding-inline: 0px;
 
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
 	justify-content: space-evenly;
 }
