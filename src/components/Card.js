@@ -16,7 +16,13 @@ function Card({ q, a }) {
 
 	return (
 		<>
-			<button onClick={toggleAnswer}>
+			<button
+				onClick={toggleAnswer}
+				style={{
+					borderBottomLeftRadius: show ? 0 : 25,
+					borderBottomRightRadius: show ? 0 : 25,
+				}}
+			>
 				<h2>{q}</h2>
 				{show ? <UpArrow /> : <DownArrow />}
 			</button>

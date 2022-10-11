@@ -7,7 +7,7 @@ import dy from "../images/darryl-yap.png";
 
 function A5() {
 	return (
-		<>
+		<div className="answer-container">
 			<p>
 				The effect of the billboard greeting differs depending on the receiver’s
 				political stance. Those who sided with Leni’s campaign found the
@@ -29,7 +29,9 @@ function A5() {
 				documentary she produced. She claimed that the image was stolen from her
 				and that the billboard violated copyright laws.
 			</p>
-			<img src={lg} alt="" />
+			<div className="image-container">
+				<img src={lg} alt="" />
+			</div>
 			<p>
 				On the other hand, Marcos’ supporters did not, in any way, appreciate
 				the billboard greeting. Darryl Yap, a known staunch supporter of the
@@ -39,7 +41,9 @@ function A5() {
 				He tried to solidify his theory by pointing out that the image used was
 				from “The Kingmaker,” an anti-Marcos documentary.
 			</p>
-			<img src={dy} alt="" />
+			<div className="image-container">
+				<img src={dy} alt="" />
+			</div>
 			<p>
 				It’s hard to tell who really benefited from this billboard greeting. On
 				social media, we can clearly see that this did not favor the Marcoses.
@@ -47,7 +51,7 @@ function A5() {
 				and saw the billboard even noticed these details? Did the billboard
 				further solidify Imelda’s matriarch image?
 			</p>
-		</>
+		</div>
 	);
 }
 
