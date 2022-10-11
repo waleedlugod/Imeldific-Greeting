@@ -9,7 +9,7 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	font-family: montserrat, serif;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 body {
 	background-color: var(--primary);
