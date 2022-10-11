@@ -52,6 +52,10 @@ svg {
 	display: flex;
 	flex-direction: column;
 }
+.easter-egg {
+	position: absolute;
+	color: #ffffff00;
+}
 .header {
 	background-color: var(--tertiary-1);
 	width: 100vw;
