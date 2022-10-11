@@ -58,8 +58,8 @@ svg {
 }
 .header {
 	background-color: var(--tertiary-1);
-	width: 100vw;
-	padding: 55px;
+	width: 100%;
+	padding: 60px;
 	margin-bottom: 70px;
 	text-align: center;
 }
@@ -87,13 +87,13 @@ svg {
 }
 .primary-photo {
 	width: 70%;
-	margin-inline: 10%;
 	margin-bottom: 50px;
 	align-self: center;
 }
 .footer {
 	margin-top: auto;
 	padding: 30px;
+	padding-inline: 0px;
 
 	display: flex;
 	flex-direction: row;
